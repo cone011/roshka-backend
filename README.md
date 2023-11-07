@@ -20,6 +20,8 @@ Va a inicializar y correr los dos contenedores de MongoDB y nodeJS
 
 ## OBSERVACION
 
+**Genera un archivo llamado access.log donde guarda un log de todos los llamados a la api**
+
 **Tiene tambien incluido la sesion que se persiste en la base de datos**
 
 **para realizar las comparaciones de contraseña y el hash tuve que usar bcryptjs debido que al realizar el comando de docker-compose la libreria de bcrypt me dio problemas**
